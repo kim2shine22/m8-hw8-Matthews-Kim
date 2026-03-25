@@ -143,8 +143,15 @@ footer {
     align-items: center;
   }
 
+  nav > a.logo {
+    margin-right: 0;
+    margin-bottom: 12px;
+    font-size: 1.5rem;
+  }
+
   nav > a:not(:first-of-type) {
     margin-left: 0;
+    font-size: 1rem;
   }
 
   /* 2. Reduce article padding so text doesn't hug the edges */
